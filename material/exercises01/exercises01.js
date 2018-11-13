@@ -18,7 +18,7 @@ variance = function(numbers) {
     /**
      * Calculate the sample variance of an array of numbers
      * @param  {number[]} numbers A list of numbers
-     * @return {number} the population variance of numbers with 2 decimal precision
+     * @return {number} the sample variance of numbers with 2 decimal precision
      */
 
     // Todo: Write code here
@@ -29,7 +29,7 @@ stddev = function(numbers) {
     /**
      * Calculate the sample standard deviation of an array of numbers
      * @param  {number[]} numbers A list of numbers
-     * @return {number} the population variance of numbers with 2 decimal precision
+     * @return {number} the sample standard deviation of numbers with 2 decimal precision
      */
 
     // Todo: Write code here
