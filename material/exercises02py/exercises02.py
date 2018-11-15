@@ -10,7 +10,7 @@ matmod exercises02
 
 def my_factorial(n):
     """
-    Calculate the factorial of integer n
+    Returns the factorial of integer n
 
     Args:
         n: integer
@@ -18,11 +18,13 @@ def my_factorial(n):
         the factorial of n, n! = n*(n-1)*(n-2)*..*2*1
     """
 
+    # Write code here
+
     return 0
 
 def my_bin(n, N, p):
     """
-    Calculate the probability binomial distribution Pr(X = x)
+    Returns the probability binomial distribution Pr(X = x)
 
     Args:
         n: number of trials
@@ -33,12 +35,14 @@ def my_bin(n, N, p):
         probability p with 3 decimal precision
     """
 
+    # Write code here
+
     return 0
 
 
 def cumulative_bin(n, N, p):
     """
-    Calculate the probability binomial distribution Pr(X <= x)
+    Returns the probability binomial distribution Pr(X <= x)
 
     Args:
         n: number of trials
@@ -49,26 +53,34 @@ def cumulative_bin(n, N, p):
         probability p with 3 decimal precision
     """
 
+    # Write code here
+
     return 0
 
 def exercise309():
-    """ Exercuse 309 """
+    """ Exercise 309 """
 
     #  En undersökning visar att en tredjedel av alla barn får huvudlöss.
     #  Slumpmässigt väljer vi tre barn.
-    #  Vad är sannolikheten att exakt två av barnen av de valda barnen får huvudlöss?
+    #  Vad är sannolikheten att exakt två av barnen
+    #  av de valda barnen får huvudlöss?
 
     #  Returnerna ditt svar med 3 decimaler
+
+    # Write code here
 
     return 0
 
 def exercise_plane():
     """ Exercise plane """
 
-    #  Ett flygbolag säljer 65 biljetter till ett flygplan som har kapacitet för
-    #  60 passagerare. Sannolikheten att en passagerare inte dyker upp är 0.1.
+    #  Ett flygbolag säljer 65 biljetter till ett flygplan som har 
+    #  kapacitet för 60 passagerare. Sannolikheten att en 
+    #  passagerare inte dyker upp är 0.1.
     #  Vad är sannolikheten att flygplanet inte blir överbelastat?
     #
     #  Returnera svaret med 3 decimaler
+
+    # Write code here
 
     return 0

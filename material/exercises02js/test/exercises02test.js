@@ -32,14 +32,14 @@ describe("Binomial test 2", function() {
 });
 
 describe("Cumalative Binomial test 1", function() {
-    it("cumulative_bin(40, 100, 0.5) should return 0.028", function() {
-        assert.equal(f.cumulative_bin(40, 100, 0.5), 0.028);
+    it("cumulativeBin(40, 100, 0.5) should return 0.028", function() {
+        assert.equal(f.cumulativeBin(40, 100, 0.5), 0.028);
     });
 });
 
 describe("Cumulative Binomial test 2", function() {
-    it("cumulative_bin(150, 200, 0.75) should return 0.527", function() {
-        assert.equal(f.cumulative_bin(150, 200, 0.75), 0.527);
+    it("cumulativeBin(150, 200, 0.75) should return 0.527", function() {
+        assert.equal(f.cumulativeBin(150, 200, 0.75), 0.527);
     });
 });
 
@@ -50,7 +50,7 @@ describe("Exercise 309", function() {
 });
 
 describe("Exercise plane", function() {
-    it("exercise_plane should return 0.791", function() {
-        assert.equal(f.exercise_plane(), 0.791);
+    it("exercisePlane should return 0.791", function() {
+        assert.equal(f.exercisePlane(), 0.791);
     });
 });

@@ -6,7 +6,7 @@
 
 function factorial(n) {
     /**
-     * Calculate the factorial of the integer n
+     * Returns the factorial of the integer n
      * @param  {number} n integer
      * @return {number} n!
      */
@@ -18,17 +18,17 @@ function factorial(n) {
 
 function bin(n, N, p) {
     /**
-     * Calculate the probability binomial distribution Pr(X = x)
+     * Return the probability of binomial distribution Pr(X = x)
      * @param  {number} n number of trial
      * @param  {number} N size of population
      * @param  {number} p propability of success
-     * @return {number} probability of exactly n successful trial with population N with
+     * @return {number} probability of exactly n successful trials with population N with
      * probability p with 3 decimal precision
      */
     // Todo: Write code here
 }
 
-function cumulative_bin(n, N, p) {
+function cumulativeBin(n, N, p) {
     /**
      * Calculate the probability binomial distribution Pr(X <= x)
      * @param  {number} n number of trial
@@ -55,7 +55,7 @@ function exercise309() {
     return 0;
 }
 
-function exercise_plane() {
+function exercisePlane() {
     /**
      * Ett flygbolag säljer 65 biljetter till ett flygplan som har kapacitet för
      * 60 passagerare. Sannolikheten att en passagerare inte dyker upp är 0.1.
@@ -71,6 +71,6 @@ function exercise_plane() {
 
 exports.factorial = factorial;
 exports.bin = bin;
-exports.cumulative_bin = cumulative_bin;
+exports.cumulative_bin = cumulativeBin;
 exports.exercise309 = exercise309;
-exports.exercise_plane = exercise_plane;
+exports.exercise_plane = exercisePlane;
