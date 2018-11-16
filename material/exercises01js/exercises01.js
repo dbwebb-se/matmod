@@ -2,7 +2,7 @@
  * matmod exercises01
  */
 
-mean = function(numbers) {
+const mean = function(numbers) {
     /**
      * Returns the mean of an array of numbers
      * @param  {number[]} numbers A list of numbers
@@ -11,10 +11,10 @@ mean = function(numbers) {
 
     // TODO: Write code here
 
-    return 0;
+    return numbers;
 };
 
-variance = function(numbers) {
+const variance = function(numbers) {
     /**
      * Returns the sample variance of an array of numbers
      * @param  {number[]} numbers A list of numbers
@@ -22,10 +22,10 @@ variance = function(numbers) {
      */
 
     // TODO: Write code here
-    return 0;
+    return numbers;
 };
 
-stddev = function(numbers) {
+const stddev = function(numbers) {
     /**
      * Returns the sample standard deviation of an array of numbers
      * @param  {number[]} numbers A list of numbers
@@ -33,7 +33,7 @@ stddev = function(numbers) {
      */
 
     // TODO: Write code here
-    return 0;
+    return numbers;
 };
 
 module.exports = mean;

@@ -1,3 +1,5 @@
+/*eslint-env and, mocha */
+
 const assert = require("chai").assert;
 const f = require("../exercises02");
 

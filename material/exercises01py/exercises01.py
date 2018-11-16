@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 
-
 """
 matmod exercises01
 """
@@ -20,7 +19,7 @@ def mean(numbers):
 
     # Write code here
 
-    return 0
+    return numbers
 
 def variance(numbers):
     """
@@ -34,7 +33,7 @@ def variance(numbers):
 
     # Write code here
 
-    return 0
+    return numbers
 
 
 def stddev(numbers):
@@ -49,4 +48,4 @@ def stddev(numbers):
 
     # Write code here
 
-    return 0
+    return numbers

@@ -8,12 +8,12 @@ function factorial(n) {
     /**
      * Returns the factorial of the integer n
      * @param  {number} n integer
-     * @return {number} n!
+     * @return {number} n!=n*(n-1)*(n-2)*...*3*2*1
      */
 
     // Todo: Write code here
 
-    return 0;
+    return n;
 }
 
 function bin(n, N, p) {
@@ -25,12 +25,15 @@ function bin(n, N, p) {
      * @return {number} probability of exactly n successful trials with population N with
      * probability p with 3 decimal precision
      */
+
     // Todo: Write code here
+
+    return [n, N, p];
 }
 
 function cumulativeBin(n, N, p) {
     /**
-     * Calculate the probability binomial distribution Pr(X <= x)
+     * Return the probability binomial distribution Pr(X <= x)
      * @param  {number} n number of trial
      * @param  {number} N size of population
      * @param  {number} p propability of success
@@ -39,7 +42,8 @@ function cumulativeBin(n, N, p) {
      */
 
     // Todo: Write code here
-    return 0;
+
+    return [n, N, p];
 }
 
 function exercise309() {
@@ -50,6 +54,7 @@ function exercise309() {
      *
      * Returnerna ditt svar med 3 decimaler
      */
+
     // Todo: Write code here
 
     return 0;

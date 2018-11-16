@@ -8,6 +8,7 @@ matmod exercises02
 """
 
 
+
 def my_factorial(n):
     """
     Returns the factorial of integer n
@@ -74,8 +75,8 @@ def exercise309():
 def exercise_plane():
     """ Exercise plane """
 
-    #  Ett flygbolag säljer 65 biljetter till ett flygplan som har 
-    #  kapacitet för 60 passagerare. Sannolikheten att en 
+    #  Ett flygbolag säljer 65 biljetter till ett flygplan som har
+    #  kapacitet för 60 passagerare. Sannolikheten att en
     #  passagerare inte dyker upp är 0.1.
     #  Vad är sannolikheten att flygplanet inte blir överbelastat?
     #
