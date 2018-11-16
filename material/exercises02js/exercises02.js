@@ -74,8 +74,8 @@ function exercisePlane() {
     return 0;
 }
 
-exports.factorial = factorial;
-exports.bin = bin;
-exports.cumulative_bin = cumulativeBin;
-exports.exercise309 = exercise309;
-exports.exercise_plane = exercisePlane;
+module.exports.factorial = factorial;
+module.exports.bin = bin;
+module.exports.cumulative_bin = cumulativeBin;
+module.exports.exercise309 = exercise309;
+module.exports.exercisePlane = exercisePlane;
