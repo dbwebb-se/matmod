@@ -2,7 +2,9 @@
  * matmod exercises01
  */
 
-const mean = function(numbers) {
+"use strict";
+
+function mean(numbers) {
     /**
      * Returns the mean of an array of numbers
      * @param  {number[]} numbers A list of numbers
@@ -11,10 +13,10 @@ const mean = function(numbers) {
 
     // TODO: Write code here
 
-    return numbers;
-};
+    return 0;
+}
 
-const variance = function(numbers) {
+function variance(numbers) {
     /**
      * Returns the sample variance of an array of numbers
      * @param  {number[]} numbers A list of numbers
@@ -22,10 +24,10 @@ const variance = function(numbers) {
      */
 
     // TODO: Write code here
-    return numbers;
-};
+    return 0;
+}
 
-const stddev = function(numbers) {
+function stddev(numbers) {
     /**
      * Returns the sample standard deviation of an array of numbers
      * @param  {number[]} numbers A list of numbers
@@ -33,9 +35,9 @@ const stddev = function(numbers) {
      */
 
     // TODO: Write code here
-    return numbers;
-};
+    return 0;
+}
 
-module.exports = mean;
-module.exports = variance;
-module.exports = stddev;
+module.exports.mean = mean;
+module.exports.variance = variance;
+module.exports.stddev = stddev;
