@@ -1,0 +1,15 @@
+{
+  "name": "exercises02",
+  "version": "1.0.0",
+  "description": "Exercises settheory for matmod",
+  "main": "exercises_settheory.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
