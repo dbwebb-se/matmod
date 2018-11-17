@@ -17,6 +17,9 @@ Set.prototype.difference = function(b) {
 };
 
 /**
+ * See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
+ * for documentation for the set object in Javascript
+ *
  * Create the following sets
  * S = {1,2,3,4,5,6,7,8,9}
  * A = {2,4,6,8}
