@@ -32,7 +32,7 @@ class Exercises01Test(unittest.TestCase):
 
     def test_cumulative_binomial1(self):
         """ cumulative_bin(40, 100, 0.5) should return 0.028 """
-        self.assertEqual(f.cumulative_bin(150, 200, 0.75), 0.028)
+        self.assertEqual(f.cumulative_bin(40, 100, 0.5), 0.028)
 
     def test_cumulative_binomial2(self):
         """ cumulative_bin(150, 200, 0.75) should return 0.527 """
