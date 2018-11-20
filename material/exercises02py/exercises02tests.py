@@ -23,8 +23,8 @@ class Exercises01Test(unittest.TestCase):
         self.assertEqual(f.my_factorial(10), 3628800)
 
     def test_binomial1(self):
-        """ my_bin(40, 100, 0.5) should return 0.010 """
-        self.assertEqual(f.my_bin(40, 100, 0.5), 0.01)
+        """ my_bin(40, 100, 0.5) should return 0.011 """
+        self.assertEqual(f.my_bin(40, 100, 0.5), 0.011)
 
     def test_binomial2(self):
         """ my_bin(150, 200, 0.75) should return 0.065 """
