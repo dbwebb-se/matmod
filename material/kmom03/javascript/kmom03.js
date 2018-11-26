@@ -81,7 +81,7 @@ function exercise05() {
 
 /**
  * exercise06
- *  
+ *
  * @param {number} mean mean μ
  * @param {number} stdDev standard deviation σ
  * @param {number} a lower bound
@@ -104,7 +104,7 @@ function exercise06(mean, stdDev, a, b) {
  *
  * A coffee cup can hold up to 2.0 dl of coffee.
  *
- * Calculate and return the probability with 4 decimal precision that a cup
+ * Calculate and return the probability with 3 decimal precision that a cup
  * will be overflowed
  *
  * @return {number} The probability of a cup will be overflown with 3 decimal precision.

@@ -119,7 +119,7 @@ def exercise07():
     is normally distributed with mean 1.8 dl and standard deviation 0.1 dl.
     A coffee cup can hold up to 2.0 dl of coffee.
 
-    Calculate and return the probability with 4 decimal precision that a cup
+    Calculate and return the probability with 3 decimal precision that a cup
     will be overflowed
 
     return
