@@ -56,7 +56,7 @@ class Testcase(unittest.TestCase):
 
     def test_exercise09(self):
         """ Pr(X>Y) should return 0.8942 """
-        self.assertEqual(kmom03.exercise09(), 0.894)
+        self.assertEqual(kmom03.exercise09(), 0.8942)
 
 
 
