@@ -118,7 +118,7 @@ function exercise07() {
 
 /**
  * Let X and Y be two independent stochastic variables such that X is N(a,b)
- * and Y is N(c,d). Then  Z = X+Y is N(a+c,sqrt(b^2 + d^2)), and Z = X-Y is N(a-b, sqrt(b^2+d^2))
+ * and Y is N(c,d). Then  Z = X+Y is N(a+c,sqrt(b^2 + d^2)), and Z = X-Y is N(a-c, sqrt(b^2+d^2))
  * *
  * Return the probability of Pr(X+Y ≤ 2) when X is N(2,3), and Y is N(1,4) with 4 decimal precision
  * @return {number}

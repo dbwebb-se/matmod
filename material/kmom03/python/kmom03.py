@@ -139,7 +139,7 @@ def exercise08():
 
     Let X and Y be two independent stochastic variables such that X is N(a,b)
     and Y is N(c,d). Then  Z = X+Y is N(a+c,sqrt(b^2 + d^2)),
-    and Z = X-Y is N(a-b, sqrt(b^2+d^2))
+    and Z = X-Y is N(a-c, sqrt(b^2+d^2))
 
     return
         the probability of Pr(X+Y ≤ 2) when X is N(2,3),
