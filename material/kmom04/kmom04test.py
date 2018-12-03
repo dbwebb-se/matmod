@@ -96,7 +96,6 @@ class Testcase(unittest.TestCase):
                           83,
                           89,
                           97])
-
     # Tests exercise05
 
     def test_exercise05a(self):
