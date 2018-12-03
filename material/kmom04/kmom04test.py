@@ -76,26 +76,26 @@ class Testcase(unittest.TestCase):
 
     def test_exercise05a(self):
         """ Exercise05 test 1: 187=11*17 """
-        self.assertEqual(kmom05.exercise05(187), [11,17]) 
+        self.assertEqual(kmom04.exercise05(187), [11,17]) 
  
     def test_exercise05b(self):
         """ Exercise05 test 2: 10967535067=104723*104729 """
-        self.assertEqual(kmom05.exercise05(10967535067), [104723,104729])
+        self.assertEqual(kmom04.exercise05(10967535067), [104723,104729])
 
     # Tests exercise06
 
     def test_exercise06a(self):
         """ Exercise06 test 1: 4 is a perfect square """
-        self.assertEqual(kmom06.exercise06(4), True)
+        self.assertEqual(kmom04.exercise06(4), True)
 
     def test_exercise06b(self):
         """ Exercise06 test 1: 1166400 is a perfect square """
-        self.assertEqual(kmom06.exercise06(1166400), True)
+        self.assertEqual(kmom04.exercise06(1166400), True)
 
 
     def test_exercise06c(self):
         """ Exercise06 test 1: 99 is a not perfect square """
-        self.assertEqual(kmom06.exercise06(99), False)
+        self.assertEqual(kmom04.exercise06(99), False)
 
     # Tests exercise07
 
@@ -120,7 +120,7 @@ class Testcase(unittest.TestCase):
     # Tests exercise09
 
     def test_exercise09(self):
-        """ Exercise08: d = 851094 """
+        """ Exercise09: d = 851094 """
         self.assertEqual(kmom04.exercise09(), 851094) 
 
     # Tests exercise10
