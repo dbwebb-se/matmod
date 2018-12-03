@@ -70,12 +70,32 @@ class Testcase(unittest.TestCase):
 
     def test_exercise04b(self):
         """ Exercise04 test 2: Prime numbers less than 100 """
-        self.assertEqual(kmom04.exercise04(100), [2, 3, 5, 7, 11,
-                                                  13, 17, 19, 23, 29,
-                                                  31, 37, 41, 43, 47,
-                                                  53, 59, 61, 67, 71,
-                                                  73, 79, 83, 89, 97])
-
+        self.assertEqual(kmom04.exercise04(100),
+                         [2,
+                          3,
+                          5,
+                          7,
+                          11,
+                          13,
+                          17,
+                          19,
+                          23,
+                          29,
+                          31,
+                          37,
+                          41,
+                          43,
+                          47,
+                          53,
+                          59,
+                          61,
+                          67,
+                          71,
+                          73,
+                          79,
+                          83,
+                          89,
+                          97])
     # Tests exercise05
 
     def test_exercise05a(self):
