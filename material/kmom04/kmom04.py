@@ -154,8 +154,11 @@ def exercise08():
 
 def exercise09():
     """
+
+    exercise09
+
     Find the decoding key d with public encryption key (2038667, 103),
-    i.e solve the equation d*e = 1 (mod n)
+    i.e solve the equation d*e = 1 (mod (p-1)*(q-1))
 
     Hint:
     https://rosettacode.org/wiki/Modular_inverse
@@ -170,7 +173,7 @@ def exercise09():
 
 def exercise10():
     """
-    exercise09
+    exercise10
 
     Same public key as in exercise08
 
