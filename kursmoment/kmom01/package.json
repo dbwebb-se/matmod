@@ -1,8 +1,8 @@
 {
-  "name": "exercises02",
+  "name": "kmom01",
   "version": "1.0.0",
-  "description": "Exercises settheory for matmod",
-  "main": "exercises_settheory.js",
+  "description": "Kmom01",
+  "main": "kmom01.js",
   "scripts": {
     "test": "mocha",
     "test:watch": "mocha --watch"
