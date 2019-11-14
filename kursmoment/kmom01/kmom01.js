@@ -152,20 +152,6 @@ function exercise10() {
     return null
 }
 
-
-/**
- * Exercise12
- * Given a single n-sided symmetrical dice and an integer p such that p <= n.
- * Compute the probability the dice exactly p dots with 3-decimal precision
- *
- * @param {Number} n    Sides of the dice
- * @param {Number} p    Number of dots
- * @returns {Number}    The probability a n-sided dice will show exactly p dots with 3 decimal precision
- */
-function exercise11(n, p) {
-    return null
-}
-
 /**
  * Exercise12
  * Given a single n-sided symmetrical dice and an integer p such that p <= n.
