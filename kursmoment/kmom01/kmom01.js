@@ -69,7 +69,7 @@ function exercise03() {
  * A = {2,4,6,8}
  * B = {1,2,3,4,8,9}
  *
- * @returns {Set} the set A ∩ CB
+ * @returns {Set} the set CA ∩ B
  */
 function exercise04() {
     return new Set([]);
