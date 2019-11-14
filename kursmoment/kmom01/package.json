@@ -4,11 +4,12 @@
   "description": "Exercises settheory for matmod",
   "main": "exercises_settheory.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test:watch": "mocha --watch"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^5.2.0"
   }
