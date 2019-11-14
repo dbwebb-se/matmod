@@ -261,7 +261,6 @@ module.exports.exercise07 = exercise07;
 module.exports.exercise08 = exercise08;
 module.exports.exercise09 = exercise09;
 module.exports.exercise10 = exercise10;
-module.exports.exercise11 = exercise11;
 module.exports.exercise12 = exercise12;
 module.exports.exercise13 = exercise13;
 module.exports.exercise14 = exercise14;
