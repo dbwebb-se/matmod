@@ -71,6 +71,17 @@ describe("Part 1 -Set theory", function () {
 
 
 describe("Part 2 -  Probability", function () {
+    it("Execise11 should have 3 decimals", function () {
+        const decimals = f.exercise11(6, 4).toString().split('.')
+        assert.equal(decimals[1].length, 3)
+    })
+
+    it("Exercise11", function () {
+        assert.equal(f.exercise11(6, 4), 0.167)
+        assert.equal(f.exercise11(10, 5), 0.091)
+    })
+
+
     it("Execise12 should have 3 decimals", function () {
         const decimals = f.exercise12(6, 4).toString().split('.')
         assert.equal(decimals[1].length, 3)

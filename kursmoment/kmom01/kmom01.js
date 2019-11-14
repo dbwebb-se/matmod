@@ -154,7 +154,7 @@ function exercise10() {
 
 
 /**
- * Exercise12
+ * Exercise11
  * Given a single n-sided symmetrical dice and an integer p such that p <= n.
  * Compute the probability the dice exactly p dots with 3-decimal precision
  *
