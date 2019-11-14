@@ -4,6 +4,7 @@
 /.venv/
 /vendor/
 /node_modules/
+kursmoment/*/node_modules/
 
 __pycache__
 *.pyc
