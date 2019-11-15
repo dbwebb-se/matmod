@@ -78,7 +78,7 @@ describe("Part 2 -  Probability", function () {
 
     it("Exercise11", function () {
         assert.equal(f.exercise11(6, 4), 0.167)
-        assert.equal(f.exercise11(10, 5), 0.091)
+        assert.equal(f.exercise11(11, 5), 0.091)
     })
 
 
