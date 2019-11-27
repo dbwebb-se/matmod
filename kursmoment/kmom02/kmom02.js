@@ -9,7 +9,7 @@
  * Given two events A and B, such that
  *
  * Pr(A) = 0.16
- * Pr(A ∩ B) = 0.03
+ * Pr(A ∩ B) = 0.003
  * Pr(CA ∩ B) = 0.12
  *
  * Compute the probability Pr(A ∪ B) with 3 decimal precision
@@ -26,7 +26,7 @@ function exercise01() {
  * Given two events A and B, such that
  *
  * Pr(A) = 0.16
- * Pr(A ∩ B) = 0.03
+ * Pr(A ∩ B) = 0.003, and
  * Pr(CA ∩ B) = 0.12
  *
  * Compute the probability Pr(B) with 3 decimal precision
@@ -42,7 +42,7 @@ function exercise02() {
  * Given two events A and B, such that
  *
  * Pr(A) = 0.16
- * Pr(A ∩ B) = 0.03, and
+ * Pr(A ∩ B) = 0.003, and
  * Pr(CA ∩ B) = 0.12
  *
  * Compute the probability Pr(A ∩ CB) with 3 decimal precision
