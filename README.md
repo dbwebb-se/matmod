@@ -10,6 +10,10 @@ Related to https://dbwebb.se/kurser/matmod
 
 The course repo is managed by a [dbwebb command line utility](https://dbwebb.se/dbwebb-cli).
 
+## Lecture material
+
+The lecture material is available on [Gitbook](https://henrikfredriksson.gitbook.io/matmod/)
+
 ## Literature
 
 Statistisk dataanalys, Svante Körner och Lars Wahlgren,
