@@ -29,7 +29,7 @@ describe("Kmom02", function () {
     });
 
     it("Exercise07", function () {
-        assert.equal(f.exercise07(), 0.329)
+        assert.equal(f.exercise07(), 0.330)
     })
 
     it("Exercise08", function () {
