@@ -20,7 +20,7 @@ describe("Kmom02", function () {
     });
 
     it("Exercise05", function () {
-        assert.equal(f.exercise05(), 0.333);
+        assert.equal(f.exercise05(), 0.760);
     });
 
     it("Exercise06", function () {
