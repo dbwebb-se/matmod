@@ -3,7 +3,7 @@ const f = require("../kmom02");
 
 describe("Kmom02", function () {
     it("Exercise01", function () {
-        assert.equal(f.exercise01(), 0.283);
+        assert.equal(f.exercise01(), 0.280);
     });
 
     it("Exercise02", function () {
